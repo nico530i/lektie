@@ -1,0 +1,31 @@
+.fejl {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.fejl h1 {
+  position: relative;
+  font-size: 45px;
+  top: 190px;
+  font-weight: bold;
+}
+
+.fejl a {
+  font-weight: bold;
+  top: 225px;
+  font-size: 20px;
+  padding: 15px 30px;
+  border-radius: 10px;
+  background-color: #0073ff;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.fejl a:hover {
+  background-color: #025bc8;
+  color: #ffffffa6;
+}

@@ -1,0 +1,67 @@
+.find {
+  display: flex;
+}
+
+.find img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.line {
+  margin-left: 450px;
+  margin-top: 100px;
+}
+
+.line h2,
+.line a {
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+.line a {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #0073ff;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s;
+  position: absolute;
+  bottom: 180px;
+  left: 415px;
+}
+
+.line a:hover {
+  background-color: #025bc8;
+  color: #ffffffa6;
+}
+
+.maria {
+  margin-left: 120px;
+  margin-top: 100px;
+}
+
+.maria h2,
+.maria a {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.maria a {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #0073ff;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s;
+  position: absolute;
+  bottom: 180px;
+  left: 890px;
+}
+
+.maria a:hover {
+  background-color: #025bc8;
+  color: #ffffffa6;
+}

@@ -1,0 +1,419 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+/* Top */
+
+.top {
+  background-color: rgb(30, 37, 73);
+  height: 100px;
+}
+
+.logo {
+  text-align: center;
+  position: absolute;
+  left: 50px;
+  top: 34px;
+  font-weight: bold;
+}
+
+.log-ind {
+  position: absolute;
+  right: 150px;
+  top: 25px;
+  padding: 15px 25px;
+  background-color: #0073ff;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  transition: all 0.3s;
+  font-weight: bolder;
+}
+
+.log-ind a {
+  font-weight: bold;
+}
+
+.log-ind:hover {
+  background-color: #0073ffb4;
+  color: #ffffffa6;
+}
+
+/* Nav liste */
+
+.menu__bar {
+  background-color: rgb(52, 57, 87);
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  z-index: 108;
+}
+
+.logo {
+  color: white;
+  font-size: 30px;
+}
+
+.logo span {
+  color: #0073ff;
+  margin-top: 20px;
+}
+
+.menu__bar ul {
+  list-style: none;
+  display: flex;
+  gap: 100px;
+  margin-left: 520px;
+}
+
+.menu__bar ul li {
+  position: relative;
+}
+
+.menu__bar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.3s;
+  font-weight: bold;
+}
+
+.menu__bar ul li a:hover {
+  color: #a0a1a1;
+  transition: all 0.5s ease;
+}
+
+.dropdown__menu {
+  display: none;
+}
+
+.dropdown__menu ul li a {
+  font-size: 16px;
+}
+
+.menu__bar ul li:hover .dropdown__menu {
+  z-index: 105;
+  display: block;
+  position: absolute;
+  margin-top: 10px;
+  left: 0;
+  top: 10px;
+  background-color: rgb(52, 57, 87);
+  width: 220px;
+}
+
+.menu__bar ul li:hover .dropdown__menu ul {
+  display: block;
+  margin: 10px;
+  transition: all 0.5s ease;
+  color: #a0a1a1;
+  padding-top: 20px;
+}
+
+.menu__bar ul li:hover .dropdown__menu ul li {
+  width: 200px;
+  padding: 10px;
+  transition: all 0.5s ease;
+}
+
+.fas {
+  float: right;
+  margin-left: 20px;
+  padding-top: 3px;
+}
+
+.menu__bar .fa-angle-right {
+  color: rgba(155, 152, 152, 0.671);
+  margin-right: 15px;
+}
+
+.kunde {
+  position: absolute;
+  left: 200px;
+}
+
+.tittel {
+  right: 350px;
+  color: white;
+  margin-left: 55px;
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+.book {
+  top: 330px;
+  right: 60px;
+  z-index: 101;
+  position: absolute;
+  width: 320px;
+  height: 450px;
+  background-color: rgb(22, 30, 66);
+}
+
+.book p {
+  color: white;
+  margin-top: 10px;
+  top: 250px;
+  right: 350px;
+  margin-left: 55px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.book a {
+  border: 1px solid rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 20px 50px;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  top: 85px;
+  left: 65px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.book a:hover {
+  border: 1px solid #a0a1a1;
+  color: #a0a1a1;
+}
+
+.billede2,
+.billede3,
+.billede4,
+.billede5,
+.billede6,
+.billede7 {
+  margin-top: 60px;
+  margin-left: 0px;
+  max-width: 1000px;
+  max-height: 1000px;
+}
+
+.billede1 {
+  position: absolute;
+  right: 200px;
+  top: 15.5em;
+  max-width: 100px;
+  max-height: 550px;
+}
+
+.billede2 {
+  position: absolute;
+  left: 50px;
+  top: 11.5em;
+}
+.billede3 {
+  position: absolute;
+  z-index: 99;
+  left: 360px;
+  top: 11.5em;
+}
+.billede4 {
+  position: absolute;
+  z-index: 100;
+  left: 50px;
+  top: 29.5em;
+}
+
+.billede5 {
+  position: absolute;
+  z-index: 100;
+  left: 363px;
+  top: 29.5em;
+}
+
+.billede6 {
+  position: absolute;
+  z-index: 100;
+  left: 679px;
+  top: 29.45em;
+  z-index: 102;
+}
+
+.billede7 {
+  position: absolute;
+  z-index: 100;
+  left: 680px;
+  top: 9.5em;
+}
+
+.billede8 {
+  z-index: 104;
+  position: absolute;
+  top: 830px;
+  left: 260px;
+}
+
+/*bund*/
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(30, 37, 73);
+  color: white;
+  top: 1300px;
+}
+
+th {
+  position: relative;
+  left: 140px;
+  padding: 0 82px;
+  top: 70px;
+}
+
+.under a {
+  text-decoration: none;
+  color: rgb(155, 155, 155);
+  position: relative;
+  left: 180px;
+  top: 80px;
+  transition: all 0.3s;
+  font-size: 15px;
+}
+
+.under a:hover {
+  color: rgb(93, 93, 93);
+}
+
+.under i {
+  color: rgb(93, 93, 93);
+  margin-left: 20px;
+  position: relative;
+  margin-top: 20px;
+  left: 20px;
+}
+
+.under .fa-angle-right {
+  color: rgba(155, 152, 152, 0.671);
+  margin-right: 32px;
+}
+/*Sociale medier*/
+.socials {
+  z-index: 1900;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 90em;
+  bottom: 0;
+  margin-left: 850px;
+}
+
+.socials li {
+  margin: 0 10px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: rgb(146, 146, 146);
+  position: relative;
+  left: 400px;
+  bottom: 0px;
+}
+
+.socials a i {
+  margin-top: 25px;
+  font-size: 2rem;
+  transition: color 0.5s ease;
+}
+
+.socials a:hover i {
+  color: rgb(255, 255, 255);
+}
+
+/*Copyright */
+
+.footer-bottom {
+  background: rgb(30, 37, 73);
+  text-align: center;
+  font-size: 40px;
+  position: absolute;
+  right: 20px;
+  top: 39.3em;
+  text-decoration: none;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-bottom span a {
+  opacity: 0.8;
+  font-weight: 200;
+  font-size: 16px;
+  color: #909090;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.footer-bottom span a:hover {
+  color: #3f3f3f;
+}
+
+/*Søge bar*/
+
+.search-box {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 400px;
+  transform: translate(-50%, -50%);
+  background: rgb(255, 255, 255);
+  height: 48px;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.search-btn {
+  color: #0073ff;
+  float: right;
+  width: 40px;
+  height: 30px;
+  border-radius: 50%;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 25px;
+  width: 200px;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+.search-box a i {
+  margin-right: 25px;
+  margin-bottom: 0px;
+  text-decoration: none;
+  border: none;
+}
+
+.search-box a {
+  text-decoration: none;
+}

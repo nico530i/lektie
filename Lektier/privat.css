@@ -1,0 +1,58 @@
+.container {
+  width: 60%;
+  height: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 430px;
+  right: 40px;
+}
+
+.swiper {
+  width: 50%;
+  margin-top: 800px;
+}
+
+.swiper-slide img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+  color: #000000;
+}
+
+.swiper .swiper-pagination-bullet-active {
+  background: #000000;
+}
+
+/*Kontakt*/
+
+.over h1 {
+  font-size: 35px;
+  text-align: center;
+  color: #0073ff;
+  position: relative;
+  top: 100px;
+  font-weight: bold;
+}
+
+.over a {
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #0073ff;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s;
+  position: relative;
+  bottom: 20px;
+}
+
+.over a:hover {
+  background-color: #025bc8;
+  color: #ffffffa6;
+}
